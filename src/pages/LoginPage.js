@@ -14,7 +14,9 @@ export default function LoginPage({ onLogin }) {
 
     if (
       (email.trim().toLowerCase() === "shreehari94477@gmail.com" && password === "12345") ||
-      (email.trim().toLowerCase() === "shreeshailnidagundi655@gmail.com" && password === "Shree@7809") 
+      (email.trim().toLowerCase() === "shreeshailnidagundi655@gmail.com" && password === "Shree@7809") ||
+      (email.trim().toLowerCase() === "sushanthms20@gmail.com" && password === "161975") 
+
     ) {
       console.log("✅ Credentials are valid!");
       console.log("📞 About to call onLogin()");
