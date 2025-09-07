@@ -1,0 +1,79 @@
+/* Main container */
+.landing-container {
+  font-family: 'Poppins', sans-serif;
+  color: white;
+  text-align: center;
+}
+
+/* Top navigation bar */
+.navbar {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 1rem 3rem;
+  background: linear-gradient(90deg, #673ab7, #512da8);
+  position: sticky;
+  top: 0;
+  z-index: 100;
+}
+
+.logo {
+  font-weight: bold;
+  font-size: 1.3rem;
+}
+
+.navbar a {
+  color: white;
+  margin: 0 1rem;
+  text-decoration: none;
+  font-weight: 500;
+  transition: color 0.3s ease;
+}
+
+.navbar a:hover {
+  color: #ffeb3b;
+}
+
+/* Hero section */
+.hero {
+  padding: 6rem 2rem;
+  background: linear-gradient(to bottom right, #673ab7, #9575cd);
+}
+
+.hero h1 {
+  font-size: 3rem;
+  margin-bottom: 1rem;
+}
+
+.hero p {
+  font-size: 1.2rem;
+  max-width: 600px;
+  margin: auto;
+}
+
+/* Get Started button */
+.hero button {
+  margin-top: 2rem;
+  padding: 0.9rem 2.5rem;
+  background: white;
+  color: #673ab7;
+  font-size: 1.1rem;
+  font-weight: bold;
+  border-radius: 25px;
+  border: none;
+  cursor: pointer;
+  transition: all 0.3s ease;
+}
+
+.hero button:hover {
+  background: #ffc107;
+  color: white;
+  transform: scale(1.05);
+}
+
+/* Footer */
+.footer {
+  padding: 1rem;
+  background: #512da8;
+  font-size: 0.9rem;
+}

@@ -1,0 +1,81 @@
+/* Background */
+.login-container {
+  display: flex;
+  height: 100vh;
+  justify-content: center;
+  align-items: center;
+  background: linear-gradient(120deg, #673ab7, #9575cd);
+  font-family: 'Poppins', sans-serif;
+}
+
+/* Form card */
+.login-form {
+  background: white !important;
+  padding: 2.5rem !important;
+  border-radius: 15px !important;
+  box-shadow: 0 8px 25px rgba(0, 0, 0, 0.2) !important;
+  width: 350px !important;
+  text-align: center !important;
+  animation: fadeIn 0.5s ease !important;
+  position: relative !important;
+  z-index: 1 !important;
+}
+
+.login-form h2 {
+  margin-bottom: 1.5rem;
+  color: #673ab7;
+}
+
+.login-form input {
+  display: block !important;
+  width: 100% !important;
+  padding: 0.8rem !important;
+  margin-bottom: 1rem !important;
+  border: 1px solid #ddd !important;
+  border-radius: 8px !important;
+  font-size: 1rem !important;
+  box-sizing: border-box !important;
+  pointer-events: auto !important;
+}
+
+/* Button - FIXED */
+.login-form button {
+  width: 100% !important;
+  padding: 0.8rem !important;
+  background: #673ab7 !important;
+  color: white !important;
+  font-size: 1rem !important;
+  border-radius: 8px !important;
+  border: none !important;
+  font-weight: bold !important;
+  transition: background 0.3s ease !important;
+  cursor: pointer !important;
+  position: relative !important;
+  z-index: 9999 !important;
+  pointer-events: auto !important;
+  box-sizing: border-box !important;
+  display: block !important;
+  margin: 0 auto !important;
+}
+
+.login-form button:hover {
+  background: #512da8 !important;
+}
+
+
+.login-form button:active {
+  transform: translateY(1px); /* Optional: adds click feedback */
+}
+
+/* Footer text */
+.footer-text {
+  font-size: 0.8rem;
+  color: gray;
+  margin-top: 1.5rem;
+}
+
+/* Smooth animation */
+@keyframes fadeIn {
+  from { opacity: 0; transform: translateY(-10px); }
+  to { opacity: 1; transform: translateY(0); }
+}
